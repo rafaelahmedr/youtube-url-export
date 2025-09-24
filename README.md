@@ -1,4 +1,4 @@
-# YouTube Channel Video Exporter
+# YouTube Channel URL Exporter
 
 Fetch all video titles and URLs from a YouTube channel and save them into an Excel file.
 
