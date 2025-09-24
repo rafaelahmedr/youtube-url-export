@@ -24,3 +24,10 @@ Run the script with a channel URL:
 
 ```bash
 python yt_to_excel.py https://www.youtube.com/@CotesAS
+
+## Notes
+- The script works only with public videos  
+- For members-only, unlisted, or private content, authentication is required (not included in this version)  
+- Update yt-dlp regularly to ensure compatibility with YouTube changes:
+  ```bash
+  pip install -U yt-dlp
