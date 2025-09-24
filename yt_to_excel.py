@@ -6,9 +6,9 @@ from openpyxl.styles import Font
 from openpyxl.utils import get_column_letter
 
 def fetch_videos(channel_url: str):
-    """Fetch videos from a YouTube channel using yt-dlp."""
+    """Fetch videos from a YouTube channel using yt-dlp (via Python module)."""
     result = subprocess.run(
-        ["yt-dlp", "-j", "--flat-playlist", channel_url],
+        [sys.executable, "-m", "yt_dlp", "-j", "--flat-playlist", channel_url],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         text=True,
@@ -59,7 +59,7 @@ def save_to_excel(videos, output_file="videos.xlsx"):
         ws.column_dimensions[col_letter].width = min(max_length + 2, 80)
 
     wb.save(output_file)
-    print(f"Done! Saved as {output_file}")
+    print(f"✅ Done! Saved as {output_file}")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
