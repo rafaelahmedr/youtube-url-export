@@ -26,7 +26,7 @@ Fetch all video titles and URLs from a YouTube channel and save them into an Exc
 Run the script with a channel URL:
 
 ```bash
-python yt_to_excel.py https://www.youtube.com/@CotesAS
+python yt_to_excel.py https://www.youtube.com/@[username]
 ```
 
 The output will be saved as: **videos.xlsx**
