@@ -43,9 +43,9 @@ The output will be saved as: **videos.xlsx**
 - For members-only, unlisted, or private content, authentication is required (not included in this version)  
 - Update yt-dlp regularly to ensure compatibility with YouTube changes:
   
-  ```bash
-  pip install -U yt-dlp
-  ```
+```bash
+pip install -U yt-dlp
+```
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
