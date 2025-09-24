@@ -17,3 +17,10 @@ Fetch all video titles and URLs from a YouTube channel and save them into an Exc
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+## Usage
+
+Run the script with a channel URL:
+
+```bash
+python yt_to_excel.py https://www.youtube.com/@CotesAS
