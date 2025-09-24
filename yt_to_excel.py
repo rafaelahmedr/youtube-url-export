@@ -59,7 +59,7 @@ def save_to_excel(videos, output_file="videos.xlsx"):
         ws.column_dimensions[col_letter].width = min(max_length + 2, 80)
 
     wb.save(output_file)
-    print(f"✅ Done! Saved as {output_file}")
+    print(f" Done! Saved as {output_file}")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -69,3 +69,4 @@ if __name__ == "__main__":
     channel_url = sys.argv[1]
     videos = fetch_videos(channel_url)
     save_to_excel(videos)
+
