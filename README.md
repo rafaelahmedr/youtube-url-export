@@ -12,8 +12,8 @@ Fetch all video titles and URLs from a YouTube channel and save them into an Exc
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/rafaelahmedr/youtube-channel-export.git
-   cd youtube-channel-export
+   git clone https://github.com/rafaelahmedr/youtube-url-export.git
+   cd youtube-url-export
    ```
 
 2. Install dependencies:
